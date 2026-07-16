@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Centered safe-zone group -->
+    <group
+        android:translateX="18"
+        android:translateY="18">
+        
+        <!-- Triangle (Mathematics) -->
+        <path
+            android:strokeColor="#FF4CAF50"
+            android:strokeWidth="3.5"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M 36,12 L 60,54 L 12,54 Z"
+            android:fillColor="#00000000" />
+            
+        <!-- Chemistry Flask (Chemistry) -->
+        <path
+            android:strokeColor="#FF00BCD4"
+            android:strokeWidth="3.5"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M 31,24 L 31,34 L 20,50 C 18,53 21,57 25,57 L 47,57 C 51,57 54,53 52,50 L 41,34 L 41,24 Z"
+            android:fillColor="#1500BCD4" />
+            
+        <!-- Atom Orbit (Physics) -->
+        <path
+            android:strokeColor="#FFE91E63"
+            android:strokeWidth="3"
+            android:pathData="M 36,10 A 26,16 45 1 1 35.99,10"
+            android:fillColor="#00000000" />
+        <path
+            android:strokeColor="#FFE91E63"
+            android:strokeWidth="3"
+            android:pathData="M 36,10 A 26,16 -45 1 1 35.99,10"
+            android:fillColor="#00000000" />
+
+        <!-- Center nucleus/light -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 36,36 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0" />
+    </group>
+</vector>
